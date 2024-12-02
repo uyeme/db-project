@@ -1,0 +1,117 @@
+/* General container spacing */
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Header styling */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #007bff; /* Bootstrap's primary color */
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #6c757d; /* Bootstrap's secondary color */
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 2px solid #061a2f; /* Bootstrap primary color */
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #98b3d6; /* Light background for contrast */
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+/* Form styling */
+form .form-label {
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form .form-control,
+form .form-check-input {
+    padding: 8px;
+    font-size: 0.9rem;
+    border: 1px solid #ced4da; /* Bootstrap input border color */
+    border-radius: 5px;
+}
+
+form .form-check-label {
+    font-size: 0.85rem;
+    margin-left: 5px;
+    color: #555;
+}
+
+form .btn-primary {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+}
+
+form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Table styling */
+.table-responsive {
+    margin-top: 20px;
+    background-color: #ffffff; /* White background for the table */
+    padding: 15px;
+    border: 1px solid #dee2e6; /* Light gray border */
+    border-radius: 8px;
+}
+
+table {
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+thead th {
+    font-size: 0.95rem;
+    font-weight: bold;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #ffffff;
+}
+
+tbody td {
+    vertical-align: middle;
+    color: #333;
+}
+
+/* Add hover effect to table rows */
+table tbody tr:hover {
+    background-color: #f1f1f1; /* Light gray on hover */
+}
+
+/* Miscellaneous */
+body {
+    background-color: #f8f9fa; /* Light gray background for overall layout */
+    font-family: 'Arial', sans-serif;
+}
+
+.text-primary {
+    color: #007bff !important; /* Ensure primary text styling */
+}
+
+.text-secondary {
+    color: #6c757d !important; /* Ensure secondary text styling */
+}
