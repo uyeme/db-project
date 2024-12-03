@@ -28,6 +28,10 @@ const Students = sequelize.define('Students', {
         type: DataTypes.STRING(100),
         allowNull: false,
     },
+    gender: {
+        type: DataTypes.STRING,
+        allowNull: false, // Ensure this field is required
+    },
     phone_number: {
         type: DataTypes.STRING(20),
         allowNull: false,

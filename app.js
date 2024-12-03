@@ -46,10 +46,10 @@ createCrudRoutes(app, 'fund_disbursements', FundDisbursements);
 
 // Custom endpoints for Students
 app.post('/students', async (req, res) => {
-    const { first_name, last_name, date_of_birth, grade_level, email_address, phone_number, home_address } = req.body;
+    const { first_name, last_name, date_of_birth, grade_level, email_address, gender, phone_number, home_address } = req.body;
 
     // Validate input
-    if (!first_name || !last_name || !date_of_birth || !grade_level || !email_address || !phone_number || !home_address) {
+    if (!first_name || !last_name || !date_of_birth || !grade_level || !email_address || !gender || !phone_number || !home_address) {
         return res.status(400).json({ error: 'All fields are required' });
     }
 
@@ -60,6 +60,7 @@ app.post('/students', async (req, res) => {
             date_of_birth,
             grade_level,
             email_address,
+            gender,
             phone_number,
             home_address
         });
