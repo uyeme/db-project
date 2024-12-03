@@ -1,8 +1,8 @@
 # db project
- Final Project Instructions: Professional Setup Guide
+ Final Project Instructions: Setup Guide
 
  Entity Relationship Diagram (ERD) Creation:
-Design an ERD to visualize the tables and their relationships for the project. This diagram will help you understand the structure and connections between different entities.
+Design an ERD using Draw io to visualize the tables and their relationships for the project. This diagram will help you understand the structure and connections between different entities.
 
  Set Up MySQL Connection and Schemas:
 Install MySQL locally if you haven't already.
@@ -58,6 +58,19 @@ Define Database Models:
 Create a new file named models.js in your root folder.
 
 Populate it with data models for your tables using Sequelize.
+
+Create insertsampledata.js to populate tables created.
+Create config.js to Initialize Sequelize with environment variables.
+
+Set up an app.js server for the student management system and to handle CRUD operations for various entities and create CrudRoutes.js function to define a set of CRUD (Create, Read, Update, Delete) routes for a given model in the app.js application.
+
+Test server using "node app.js" to determine if connection to mysql has been established successfully.
+
+Create the front-end of the application by writing a simple index.html code with student management form and list display using bootstrap, and style using external css, create validators.js to validate the form and create a scripts.js file to connect  to the server.
+
+Debug codes and test connection by filling and submitting forms.
+
+
 
 
 
